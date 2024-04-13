@@ -6,7 +6,7 @@ Pasos a seguir para inicializar el proyecto
     git clone https://github.com/roboto132/recursiva-challenge.git
 
 3: Ubicate en el directorio del proyecto ejecutando el siguiente comando:
-    cd superliga-challenge
+    cd recursiva-challenge
 
 4: Vas a necesitar instalar todas las dependencias del proyecto con el comando
     npm install
