@@ -13,26 +13,30 @@ Para poder ejecutar este proyecto en tu computadora, necesitas tener instalado n
 
 1. Clonar el repositorio de github ejecutando el siguiente comando:
 
-bash
+```bash
 git clone https://github.com/roboto132/recursiva-challenge.git
+```
 
 2. Ubicate en el directorio del proyecto ejecutando el siguiente comando:
 
-bash
+```bash
 cd recursiva-challenge
-
+```
 
 3. Instala todas las dependencias del proyecto con el siguiente comando:
 
-bash
+```bash
 npm install
+```
 
 4. Inicia el build del proyecto con el siguiente comando:
 
-bash
+```bash
 npm run build
+```
 
 4. Inicia el proyecto con el siguiente comando:
 
-bash
+```bash
 npm run start
+```
