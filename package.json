@@ -4,7 +4,7 @@
   "description": "This is a challenge to get a job at Recursiva",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon build/app/index.js",
+    "start": "node build/app/index.js",
     "build": "tsc",
     "dev": "tsc --watch",
     "lint": "eslint . --ext .ts",
