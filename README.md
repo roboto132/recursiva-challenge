@@ -1,23 +1,38 @@
-Pasos a seguir para inicializar el proyecto
+# Prueba técnica de Recursiva
 
-NOTA: Para no tener inconvenientes al ejecutar este proyecto, procura usar la misma version de node que 
-utilice yo en el desarrollo v16.17.0. Para esto puedes usar alguna herramiento como nvm, para switchear entre
-versiones de node rapidamente.
+Bienvenido al proyecto de la prueba tecnica de recursiva.
 
-1. Abre una terminal en tu computadora.
 
-2: Clonar el repositio de github ejecutando el siguiente comando:
-    git clone https://github.com/roboto132/recursiva-challenge.git
+La aplicación proporciona estadísticas y análisis sobre los registros de socios de equipos de fútbol, incluyendo el recuento total de registros, el promedio de edad de los socios de Racing, una lista de personas casadas con estudios universitarios ordenadas por edad, los 5 nombres más comunes entre los hinchas de River, y un listado de equipos con el promedio de edad de sus socios, la menor y mayor edad registradas.
 
-3: Ubicate en el directorio del proyecto ejecutando el siguiente comando:
-    cd recursiva-challenge
+Para poder ejecutar este proyecto en tu computadora, necesitas tener instalado node.js en tu computadora. Puedes descargarlo desde su pagina oficial: https://nodejs.org/es/
 
-4: Vas a necesitar instalar todas las dependencias del proyecto con el comando
-    npm install
+*Nota*: Este proyecto fue desarrollado con node v21.7.3, que por el momento es la ultima version estable de node (13/04/2024)
 
-5: Vas a necesitar ejecutar en orden los siguientes comandos
-    npm run build
-    npm run start
+## Pasos para instalar el proyecto
 
-6: Ahora si, Podras ver por consola los resultados solicitados!
+1. Clonar el repositorio de github ejecutando el siguiente comando:
 
+bash
+git clone https://github.com/roboto132/recursiva-challenge.git
+
+2. Ubicate en el directorio del proyecto ejecutando el siguiente comando:
+
+bash
+cd recursiva-challenge
+
+
+3. Instala todas las dependencias del proyecto con el siguiente comando:
+
+bash
+npm install
+
+4. Inicia el build del proyecto con el siguiente comando:
+
+bash
+npm run build
+
+4. Inicia el proyecto con el siguiente comando:
+
+bash
+npm run start
