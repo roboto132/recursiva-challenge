@@ -1,9 +1,3 @@
 /build
 
 /node_modules
-
-.eslintrc
-
-.prettierrc
-
-tsconfig.json
