@@ -18,11 +18,13 @@ async function process() {
       sortedTeamsDictionary,
     ] = DictionaryManager.generateDictionary(members);
 
-    console.log('numberOfRegisteredIndividuals', numberOfRegisteredIndividuals);
-    console.log('racingAverageAge', racingAverageAge);
-    console.log('professionalMarriedMemberList', professionalMarriedMemberList);
-    console.log('fiveMostCommonRiverMemberNames', fiveMostCommonRiverMemberNames);
-    console.log('sortedTeamsDictionary', sortedTeamsDictionary);
+    console.log('1. Cantidad total de personas registradas:', numberOfRegisteredIndividuals);
+    console.log('2. Promedio de edad de los socios de Racing:', racingAverageAge);
+    console.log('3. Listado de las 100 primeras personas casadas con estudios universitarios, ordenadas por edad:');
+    console.table(professionalMarriedMemberList);
+    console.log('4. Listado de los 5 nombres más comunes entre los hinchas de River:', fiveMostCommonRiverMemberNames);
+    console.log('5. Listado de equipos ordenados por cantidad de socios, con promedio de edad, edad mínima y edad máxima:');
+    console.table(sortedTeamsDictionary);
     
     
   } catch (error) {
