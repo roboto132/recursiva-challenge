@@ -1,5 +1,9 @@
 Pasos a seguir para inicializar el proyecto
 
+NOTA: Para no tener inconvenientes al ejecutar este proyecto, procura usar la misma version de node que 
+utilice yo en el desarrollo v16.17.0. Para esto puedes usar alguna herramiento como nvm, para switchear entre
+versiones de node rapidamente.
+
 1. Abre una terminal en tu computadora.
 
 2: Clonar el repositio de github ejecutando el siguiente comando:
