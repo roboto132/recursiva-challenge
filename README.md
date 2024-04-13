@@ -3,7 +3,7 @@ Pasos a seguir para inicializar el proyecto
 1. Abre una terminal en tu computadora.
 
 2: Clonar el repositio de github ejecutando el siguiente comando:
-    git clone ----
+    git clone https://github.com/roboto132/recursiva-challenge.git
 
 3: Ubicate en el directorio del proyecto ejecutando el siguiente comando:
     cd superliga-challenge
