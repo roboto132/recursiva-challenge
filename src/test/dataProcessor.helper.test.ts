@@ -2,12 +2,6 @@ import { DictionaryManager } from '../app/helpers/dataProcessor.helper';
 import { riverMembersTeam, teamsDictionary } from './mocks';
 
 describe('DictionaryManager', () => {
-
-  // beforeEach(() => {
-  //   // Inicializar una nueva instancia de DictionaryManager antes de cada test
-  //   dictionaryManager = new DictionaryManager();
-  // });
-
   // Caso de test para una funcionalidad específica
   it('should return the array of the five most common name', () => {
     // Act
@@ -18,7 +12,7 @@ describe('DictionaryManager', () => {
   });
 
   // Caso de test para una funcionalidad específica
-  it('should return ', () => {
+  it('should return the teams sorted by member teams amount', () => {
     const newellsExpectedStatistics = {
       club: 'Newells',
       membersAmount: 52,
@@ -51,24 +45,4 @@ describe('DictionaryManager', () => {
     expect(result[1]).toEqual(riverExpectedStatistics);
     expect(result[3]).toEqual(racingExpectedStatistics);
   });
-  // // Otro caso de test para otra funcionalidad
-  // it('should remove an entry from the dictionary', () => {
-  //   // Arrange
-  //   dictionaryManager.addEntry('key', 'value');
-
-  //   // Act
-  //   dictionaryManager.removeEntry('key');
-
-  //   // Assert
-  //   expect(dictionaryManager.getEntry('key')).toBeUndefined();
-  // });
-
-  // // Caso de test para un escenario específico
-  // it('should return undefined if entry does not exist', () => {
-  //   // Act
-  //   const result = dictionaryManager.getEntry('nonexistentKey');
-
-  //   // Assert
-  //   expect(result).toBeUndefined();
-  // });
 });
